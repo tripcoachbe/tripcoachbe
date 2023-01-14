@@ -149,7 +149,7 @@ verwerven, zich willen losmaken van vastgeroeste patronen en belemmerende overtu
 <div class="w3-container" id="contact" style="padding-bottom:32px;">
   <div class="w3-content w3-center" style="max-width:700px">
     <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">CONTACT</span></h5>
-    <p>Voor informatie en reservaties:</p>
+    <p>Voor alle informatie en reservaties:</p>
     <img src="/w3images/meel.png" class="w3-image">
 
     
@@ -160,7 +160,7 @@ verwerven, zich willen losmaken van vastgeroeste patronen en belemmerende overtu
   <!-- FAQ Container -->
 <div class="w3-container" id="faq" style="padding-bottom:32px;">
   <div class="w3-content w3-center" style="max-width:900px">
-    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">VEEL GESTELDE VRAGEN</span></h5>
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">VAAK GESTELDE VRAGEN</span></h5>
     
     
   <button onclick="myFunct('FAQ1')" class="w3-button w3-light-grey w3-block w3-left-align" id="clickthis">
@@ -184,10 +184,11 @@ verwerven, zich willen losmaken van vastgeroeste patronen en belemmerende overtu
 </div>
  
 <script>
-  function myFunc(id) {
+function myFunct(id) {
     var x = document.getElementById(id);
     if (x.classList) { 
         x.classList.toggle("w3-show");
+        x.previousElementSibling.classList.toggle("w3-dark-grey");
     } else {
     // Fallback for IE9 and earlier
     if (x.className.indexOf("w3-show") == -1) 
