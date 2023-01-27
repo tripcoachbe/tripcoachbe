@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Psychedelic Trip Coaching</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, html {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.bgimg {
+  background-size: cover;
+  background-image: url("/w3images/PAT.jpg");
+  min-height: 100%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top w3-black">
+     
+     <a class="w3-bar-item w3-button w3-hide-large w3-left" href="javascript:void(0)" onclick="myFunction()" 
+        title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+  
+      <a href="#" class="w3-bar-item w3-button"><i class="fa fa-home"></i></a>
+  
+      <a href="#about" class="w3-bar-item w3-button">TRIPCOACH.BE</a>
+
+      <a href="#aanbod" class="w3-bar-item w3-button w3-hide-small">OFFERING</a>
+  
+      <a href="#contact" class="w3-bar-item w3-button w3-hide-small">CONTACT</a>
+  
+      <a href="#getuig" class="w3-bar-item w3-button w3-hide-small w3-hide-medium">TESTIMONIALS</a>
+ 
+      <a href="#faq" class="w3-bar-item w3-button w3-hide-small w3-hide-medium">FAQ</a>
+ 
+      <a href="/" class="w3-bar-item w3-button w3-right">NL</a>
+  
+   
+  
+</div>
+
+  
+  <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-top" style="margin-top:36px">
+  <a href="#aanbod" class="w3-bar-item w3-button" onclick="myFunction()">OFFERING</a>
+  <a href="#contact" class="w3-bar-item w3-button" onclick="myFunction()">CONTACT</a>
+  <a href="#getuig" class="w3-bar-item w3-button" onclick="myFunction()">TESTIMONIALS</a>
+  <a href="#faq" class="w3-bar-item w3-button" onclick="myFunction()">FAQ</a>
+</div>
+  
+  
+<!-- Header with image -->
+<header class="bgimg w3-display-container" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large">
+    <span class="w3-tag">Belgium</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white CSS3 text-shadow" style="font-size:60px;text-shadow:1px 1px 0 #444">Psychedelic<br>Trip Coaching</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white"> </span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:900px;text-align:center">
+    <h5 class="w3-center  w3-padding-48"><span class="w3-tag w3-wide">TRIPCOACH.BE</span></h5>
+    <h3 class="w3-center"><b>Een psychedelische trip, veilig en legaal</b></h3>
+    <p>
+Je hebt waarschijnlijk al wat internetresearch gedaan en bent erachter gekomen dat het gebruik van
+psychedelica in België niet legaal is. Toch zijn er steeds meer wetenschappelijke onderzoeken die
+aantonen dat deze stoffen kunnen bijdragen tot heel waardevolle en therapeutische ervaringen. In
+Nederland is het wél toegestaan om psychedelische sessies te organiseren en psychedelica in de vorm
+van Magische Truffels te gebruiken.
+    </p>
+    <p>
+<b>TripCoach.be wil de mogelijkheid bieden om onder professionele begeleiding en op een legale
+  manier een sessie met Magische Truffels te beleven.</b>
+      <p>Deze sessies vinden plaats net over de grens in Nederland. De intake en
+voorbereidingen alsook de integratie en eventuele opvolging gebeuren in België. 
+      Een tripcoach of <i>tripsitter</i> creëert voor jou een betrouwbaar kader in een veilige omgeving om een tripsessie
+met Magische Truffels ten volle te kunnen ervaren. 
+    </p>  
+    <p>
+      <a href="TripCoach_e-book.pdf" download><div class="w3-text-purple">Meer informatie vind je in ons e-book</div></a>
+    </p>
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="aanbod">
+  <div class="w3-content" style="max-width:900px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">OFFERING</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'EXPLORER');" id="myLink">
+        <div class="w3-col s6 tablink">EXPLORER</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'VOYAGER');">
+        <div class="w3-col s6 tablink">VOYAGER</div>
+      </a>
+    </div>
+
+    <div id="EXPLORER" class="w3-container menu w3-padding-48 w3-card">
+      
+      <h3 class="w3-center">Magic Truffle Explorer</h3>
+      <p class="w3-center"><b>De standaard psychedelische ervaring onder begeleiding</b></p>
+      <p class="w3-center">Voor 1 of 2 personen</p>
+      <p class="w3-text-grey">
+      <ul>
+        <li>Screening en intakegesprek via videocall</li>
+        <li>Voorbereidende lectuur</li>
+        <li>Relaxatie-oefeningen voor aanvang van de sessie</li>
+        <li>Psychedelische sessie onder begeleiding in Nederland</li>
+        <li>Lichte maaltijd na afloop van de sessie</li>
+        <li>Mogelijkheid tot overnachting</li>
+        <li>Ondersteuning achteraf ter integratie</li>
+      </ul></p>
+    <p>Prijs: xxx€ all-in (1 of 2 pers)</p>
+  
+
+      
+    </div>
+
+    <div id="VOYAGER" class="w3-container menu w3-padding-48 w3-card">
+      <h3 class="w3-center">Magic Truffle Voyager</h3>
+      <p class="w3-center"><b>Een volledig coaching traject voor u persoonlijk. Voor mensen die worstelen met een bepaald thema.</b></p>
+      <p class="w3-center">Individueel en op maat</p>
+      <p>
+      Zelfde aanbod als de <i>Magic Truffle Explorer</i>, met daarbovenop:
+      <ul>
+        <li>Voorbereidend coachgesprek rond de bestaande problematiek</li>
+        <li>Coachgesprekken als opvolging en integratie</li>
+        <li>Eventueel in overleg met een psycholoog of arts</i>
+      </ul></p>
+  <p>Prijs op maat. Gelieve ons te contacteren</p>      
+      
+
+  
+  </div>  
+  </div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="contact" style="padding-bottom:32px;">
+  <div class="w3-content w3-center" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">CONTACT</span></h5>
+    <p>Voor alle informatie en reservaties:</p>
+    
+ <SCRIPT LANGUAGE="JavaScript">
+ser = 'nfo';
+stt = 'tripcoach.be';
+document.write('<a href=\"mailto:i' + ser + '@' + stt + '\">');
+</SCRIPT>
+    
+    <img src="/w3images/meel.png"></a>
+  </div>
+</div>
+
+
+<!-- Getuigenissen Container -->
+<div class="w3-container" id="getuig" style="padding-bottom:32px;">
+  <div class="w3-content w3-center" style="max-width:900px; text-align:justify">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">TESTIMONIALS</span></h5>
+    
+    <div class="w3-panel w3-leftbar w3-light-grey" style="text-align:left">
+      <p><i>"Het was een van de mooiste en diepzinnigste ervaringen uit mijn leven. Niet te geloven dat magische truffels zoiets kunnen teweegbrengen! Dankjewel TripCoach.be om hierbij te begeleiden"</i></p>
+      <p><b>Serge D, 48jr, Overijse</b></p>
+    </div>
+    
+    <div class="w3-left w3-panel w3-leftbar w3-light-grey" style="text-align:left">
+      <p><i>"Je voelt het verschil al na 1 sessie. Je ziet plots alles veel positiever"</i></p>
+      <p><b>Sophie, 39jr, Mechelen</b></p>
+    </div>
+    
+  </div>
+</div>
+
+  
+  <!-- FAQ Container -->
+<div class="w3-container" id="faq" style="padding-bottom:32px;">
+  <div class="w3-content w3-center" style="max-width:900px; text-align:justify">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">FREQUENTLY ASKED QUESTIONS</span></h5>
+    
+    
+  <button onclick="myFunct('FAQ1')" class="w3-button w3-light-grey w3-block w3-left-align w3-border" style="white-space:normal" id="clickthis">
+    <b>
+      Is dit wel veilig ?
+    </b>
+    </button>
+<div id="FAQ1" class="w3-hide w3-border">
+  <div class="w3-container w3-left-align">
+    <p>
+      Magische truffels zijn veilig en niet-verslavend. Er is geen enkel geval van overdosis gekend. 
+      Niettemin is het heel krachtig plantenmedicijn! Daarom is het ten stelligste aangeraden om dit te gebruiken in een veilige
+      omgeving onder begeleiding van een ervaren 'tripsitter'.
+    </p>
+  </div>
+</div>
+    <br>
+    
+<button onclick="myFunct('FAQ3')" class="w3-button w3-light-grey w3-block w3-left-align w3-border" style="white-space:normal" id="clickthis">
+  <b>
+    Is dit wel legaal ?
+  </b>
+</button>
+<div id="FAQ3" class="w3-hide w3-border">
+  <div class="w3-container w3-left-align">
+    <p>
+      In België is het <u>niet legaal</u> om psychedelica te bezitten, te verkopen of te produceren. 
+In Nederland is de Magisch Truffel een uitzondering in de wet. Daarom vinden de tripsessies van TripCoach.be plaats net over de grens.
+    </p>
+  </div>
+</div>
+        <br>
+  
+    <button onclick="myFunct('FAQ4')" class="w3-button w3-light-grey w3-block w3-left-align w3-border" style="white-space:normal" id="clickthis">
+  <b>
+      Wat zijn Magische Truffels ?
+  </b>
+</button>
+<div id="FAQ4" class="w3-hide w3-border">
+  <div class="w3-container w3-left-align">
+    <p>
+      Wat we psychedelische truffels noemen, 
+      zijn eigenlijk de ondergrondse delen of zwamvlokken van enkele paddenstoelsoorten die de 
+      psychoactieve stof psilocybine bevatten. De psilocybe cubensis is de meest populaire soort.
+    </p>
+  </div>
+</div>
+    <br>
+    
+    
+  <button onclick="myFunct('FAQ2')" class="w3-button w3-light-grey w3-block w3-left-align w3-border" style="white-space:normal" id="clickthis">
+    <b>
+      Kan ik een 'bad trip' hebben ?
+    </b>
+    </button>
+<div id="FAQ2" class="w3-hide w3-border">
+  <div class="w3-container w3-left-align">
+    <p
+       >Het minimaliseren van factoren die een bad trip kunnen uitlokken gebeurt door een zorgvuldige screening. Ook wat “Set and Setting” wordt genoemd, 
+      speelt een heel belangrijke rol. Hierover kan je meer lezen in ons gratis <a href="TripCoach_e-book.pdf" download>e-book</a>.
+    </p>
+  </div>
+</div>
+       <br>
+     
+
+        
+<button onclick="myFunct('FAQ5')" class="w3-button w3-light-grey w3-block w3-left-align w3-border" style="white-space:normal" id="clickthis">
+  <b>
+      Zijn er bijwerkingen ?
+  </b>
+</button>
+<div id="FAQ5" class="w3-hide w3-border">
+  <div class="w3-container w3-left-align">
+    <p>
+      Naast de psychdelische effecten, kunnen sommige mensen zich tijdelijk wat misselijk voelen na het innemen van Magische Truffels. 
+      Door de truffels te verwerken in een thee wordt de kans op misselijkheid veel kleiner.
+    </p>
+  </div>
+</div>
+    <br>
+        
+<button onclick="myFunct('FAQ6')" class="w3-button w3-light-grey w3-block w3-left-align w3-border" style="white-space:normal" id="clickthis">
+  <b>
+      Welke personen gebruiken best geen psychedelica ?
+  </b>
+</button>
+<div id="FAQ6" class="w3-hide w3-border">
+  <div class="w3-container w3-left-align">
+    <p>
+      Er zijn enkele tegenindicaties bij het gebruik van magische truffels. Voor meer informatie kan je ons <a href="TripCoach_e-book.pdf" download>e-book</a> 
+      raadplegen.
+    </p>
+  </div>
+</div>
+    <br>
+        
+<button onclick="myFunct('FAQ7')" class="w3-button w3-light-grey w3-block w3-left-align w3-border" style="white-space:normal" id="clickthis">
+  <b>
+      Werken Magische Truffels bij iedereen ?
+  </b>
+</button>
+<div id="FAQ7" class="w3-hide w3-border">
+  <div class="w3-container w3-left-align">
+    <p>
+      Uit onderzoek is gebleken dat ongeveer 90% van de mensen een trip beleeft na het innemen van psilocybine. 
+      Bij ongeveer 10% werd een verminderde respons vastgesteld. 
+      Dit kan meestal verholpen worden door de dosis iets te verhogen. 
+    </p>
+  </div>
+</div>
+     <br>
+       
+<button onclick="myFunct('FAQ8')" class="w3-button w3-light-grey w3-block w3-left-align w3-border" style="white-space:normal" id="clickthis">
+  <b>
+      Kan ik nadien met de auto rijden ?
+  </b>
+</button>
+<div id="FAQ8" class="w3-hide w3-border">
+  <div class="w3-container w3-left-align">
+    <p>
+      Je moet 12 uur wachten na de inname van Magische Truffels om opnieuw veilig met de auto te kunnen rijden. 
+      Daarom biedt TripCoach.be de mogelijkheid om in Nederland te overnachten na de tripsessie. De volgende ochtend kan je dan veilig de baan op.
+    </p>
+  </div>
+</div>
+    <br>
+        
+<button onclick="myFunct('FAQ9')" class="w3-button w3-light-grey w3-block w3-left-align w3-border" style="white-space:normal" id="clickthis">
+  <b>
+      Zijn er blijvende effecten van een trip ?
+  </b>
+</button>
+<div id="FAQ9" class="w3-hide w3-border">
+  <div class="w3-container w3-left-align">
+    <p>
+      Je bent lichamelijk weer de oude na afloop van de trip. Alle effecten van psilocybine zijn verdwenen na 12 uur. 
+      Wel zal de intensiteit van de ervaringen en emoties nog weken tot zelfs maanden blijven nazinderen in je geest.
+      Onderzoeken hebben aangetoond dat personen na een psychedelische trip tijdelijk meer open zijn en een minder starre persoonlijkheid hebben.
+    </p>
+  </div>
+</div>
+    <br>
+        
+<button onclick="myFunct('FAQ10')" class="w3-button w3-light-grey w3-block w3-left-align w3-border" style="white-space:normal" id="clickthis">
+  <b>
+      Wie zijn de mensen achter TripCoach.be ?
+  </b>
+</button>
+<div id="FAQ10" class="w3-hide w3-border">
+  <div class="w3-container w3-left-align">
+    <p>
+      Het TripCoachTeam is een multidisciplinair team van professionals die jou begeleiden zowel vooraf, tijdens als na afloop van jouw psychedelische trip.  
+      Wij zijn een groep psychedelische enthousiastelingen met als missie om anderen in contact te brengen met de wonderlijke werking van Magische Truffels. 
+    </p>
+  </div>
+</div>
+    <br>
+        
+<button onclick="myFunct('FAQ11')" class="w3-button w3-light-grey w3-block w3-left-align w3-border" style="white-space:normal" id="clickthis">
+  <b>
+      Vraag
+  </b>
+</button>
+<div id="FAQ11" class="w3-hide w3-border">
+  <div class="w3-container w3-left-align">
+    <p>
+      Antwoord
+    </p>
+  </div>
+</div>
+    <br>
+        
+<button onclick="myFunct('FAQ12')" class="w3-button w3-light-grey w3-block w3-left-align w3-border" style="white-space:normal" id="clickthis">
+  <b>
+      Vraag
+  </b>
+</button>
+<div id="FAQ12" class="w3-hide w3-border">
+  <div class="w3-container w3-left-align">
+    <p>
+      Antwoord
+    </p>
+  </div>
+</div>
+    <br>
+        
+<button onclick="myFunct('FAQ13')" class="w3-button w3-light-grey w3-block w3-left-align w3-border" style="white-space:normal" id="clickthis">
+  <b>
+      Vraag
+  </b>
+</button>
+<div id="FAQ13" class="w3-hide w3-border">
+  <div class="w3-container w3-left-align">
+    <p>
+      Antwoord
+    </p>
+  </div>
+</div>
+    <br>
+        
+<button onclick="myFunct('FAQ14')" class="w3-button w3-light-grey w3-block w3-left-align w3-border" style="white-space:normal" id="clickthis">
+  <b>
+      Vraag
+  </b>
+</button>
+<div id="FAQ14" class="w3-hide w3-border">
+  <div class="w3-container w3-left-align">
+    <p>
+      Antwoord
+    </p>
+  </div>
+</div>
+    <br>
+        
+<button onclick="myFunct('FAQ15')" class="w3-button w3-light-grey w3-block w3-left-align w3-border" style="white-space:normal" id="clickthis">
+  <b>
+      Vraag
+  </b>
+</button>
+<div id="FAQ15" class="w3-hide w3-border">
+  <div class="w3-container w3-left-align">
+    <p>
+      Antwoord
+    </p>
+  </div>
+</div>
+    <br>
+        
+<button onclick="myFunct('FAQ16')" class="w3-button w3-light-grey w3-block w3-left-align w3-border" style="white-space:normal" id="clickthis">
+  <b>
+      Vraag
+  </b>
+</button>
+<div id="FAQ16" class="w3-hide w3-border">
+  <div class="w3-container w3-left-align">
+    <p>
+      Antwoord
+    </p>
+  </div>
+</div>
+    <br>
+        
+<button onclick="myFunct('FAQ17')" class="w3-button w3-light-grey w3-block w3-left-align w3-border" style="white-space:normal" id="clickthis">
+  <b>
+      Vraag
+  </b>
+</button>
+<div id="FAQ17" class="w3-hide w3-border">
+  <div class="w3-container w3-left-align">
+    <p>
+      Antwoord
+    </p>
+  </div>
+</div>
+     <br>
+       
+<button onclick="myFunct('FAQ18')" class="w3-button w3-light-grey w3-block w3-left-align w3-border" style="white-space:normal" id="clickthis">
+  <b>
+      Vraag
+  </b>
+</button>
+<div id="FAQ18" class="w3-hide w3-border">
+  <div class="w3-container w3-left-align">
+    <p>
+      Antwoord
+    </p>
+  </div>
+</div>
+     <br>
+       
+<button onclick="myFunct('FAQ19')" class="w3-button w3-light-grey w3-block w3-left-align w3-border" style="white-space:normal" id="clickthis">
+  <b>
+      Vraag
+  </b>
+</button>
+<div id="FAQ19" class="w3-hide w3-border">
+  <div class="w3-container w3-left-align">
+    <p>
+      Antwoord
+    </p>
+  </div>
+</div>
+
+  </div>
+</div>
+ 
+<script>
+function myFunct(id) {
+    var x = document.getElementById(id);
+    if (x.classList) { 
+        x.classList.toggle("w3-show");
+        x.previousElementSibling.classList.toggle("w3-dark-grey");
+    } else {
+    // Fallback for IE9 and earlier
+    if (x.className.indexOf("w3-show") == -1) 
+        x.className = x.className + " w3-show";
+    else 
+        x.className = x.className.replace("w3-show", "");
+    }
+}
+</script>
+        
+        
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>🍄</p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+ 
+  
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
